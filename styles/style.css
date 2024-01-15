@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@200;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+}
+
+.cabecalho {
+    padding: 2% 0 0 12%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FC0C0C;
+    display: flex;
+    text-decoration: none;
+}
+
+span{
+    color: #FC0C0C;
+}
+
+.apresentacao {
+    margin: 8% 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__paragrafo {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.apresentacao__subtitulo {
+    font-family: 'Krona One', sans-serif;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao__links__links{
+    border: 2px solid #FC0C0C;
+    display: flex;
+    justify-content: center;
+    width: 378px;
+    text-align: center;
+    border-radius: 18px;
+    font-size: 24px;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #f6f6f6;
+    gap: 16px;
+    transition: all 0.3s ease;
+}
+
+.apresentacao__links__links:hover {
+    background-color: #272727;
+    color: #FC0C0C;
+    transform: scale(1.1);  
+}
+
+.rodape {
+    color: #000000;
+    background-color: #FC0C0C;
+    height: 45px;
+    border-radius: 20px;
+    margin: 30px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
