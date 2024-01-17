@@ -27,12 +27,12 @@ body{
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 5rem;
 }
 
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     display: flex;
@@ -49,49 +49,49 @@ body{
 .apresentacao__conteudo__projetos {
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 4.47rem;
 }
 
 .projeto {
     display: flex;
     flex-direction: row; 
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .projeto__imagem {
-    width: 205px;
-    height: 252px;
-    border-radius: 8px;
+    width: 12.81rem;
+    height: 15.75rem;
+    border-radius: 0.5rem;
     
 }
 
 .apresentacao__paragrafo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
 .apresentacao__subtitulo {
     font-family: var(--fonte-primaria);
-    line-height: 40px;
+    line-height: 2.5rem;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__projetos {
-    border: 2px solid var(--cor-terciaria);
+    border: 0.125rem solid var(--cor-terciaria);
     display: flex;
     justify-content: center;
     width: 80%;
     align-items: center;
     text-align: center;
     text-decoration: none;
-    border-radius: 18px;
-    font-size: 16px;
-    padding: 8px;
+    border-radius: 1.125rem;
+    font-size: 1rem;
+    padding: 0.5rem;
     font-weight: 200;
     font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
-    margin: 5px;
+    margin: 0.31rem;
     transition: all 0.3s ease;
 }
 
@@ -104,11 +104,11 @@ body{
 .rodape {
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
-    height: 45px;
-    border-radius: 20px;
-    margin: 30px;
+    height: 2.81rem;
+    border-radius: 1.25rem;
+    margin: 1.87rem;
     font-family: var(--fonte-primaria);
-    font-size: 20px;
+    font-size: 1.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
